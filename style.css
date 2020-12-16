@@ -1,6 +1,6 @@
 :root {
-	--cn-purple: #452743;
-	--cn-gray: #666;
+  --cn-purple: #452743;
+  --cn-gray: #666;
   --cn-lightpurp: #d4cadc;
   --cn-orange: #e27864;
 }
@@ -13,7 +13,7 @@ body {
   font: 100% sans-serif;
   font-family: 'Nobel', sans-serif;
   margin: 0em;
-  background-color: var(--cn-purple);
+  background-color: var(--cn-orange);
   color: var(--cn-lightpurp);
 }
 
@@ -38,8 +38,8 @@ p {
 }
 
 .basic h1, h2 {
-	margin: 5rem;
-	font-weight: bold;
+  margin: 5rem;
+  font-weight: bold;
 }
 
 #naviconbar {
@@ -104,6 +104,7 @@ p {
   margin-top: 5%;
   position: absolute;
   z-index: 2;
+  align-content: center;
 }
 
 #logobg {
@@ -117,7 +118,7 @@ p {
 }
 
 .logobg:nth-child(1) {
-  background-image: linear-gradient(transparent, var(--cn-orange));
+  background-image: linear-gradient(transparent, var(--cn-purple));
   height: 100%;
   width: 100%;
   margin: auto;
@@ -246,7 +247,7 @@ p {
 }
 
 #header {
-  height: 185px;
+  height: 600px;
 }
 
 .daytime {
@@ -304,11 +305,13 @@ h3 {
   #logo {
     width: 20%;
     margin-top: 5%;
+    align-self: center;
+    margin-left: 470px;
   }
   #sidenav ul {
     display: flex;
     flex-wrap: wrap;
-    float: right;
+    float: left;
   }
   #sidenav ul a {
     padding: 5px 10px;
@@ -322,7 +325,7 @@ h3 {
   .logocontainer {
     width: 100px;
     height: 100px;
-    margin-left: 100px;
+    margin-left: 200px;
   }
 
   .placeholder {
@@ -358,7 +361,8 @@ h3 {
   }
 
   #header {
-    height: 250px;
+    height: 375px;
+    justify-content: center;
   }
 
   #category-list .reason-event  {

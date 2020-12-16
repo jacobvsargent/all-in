@@ -1,0 +1,255 @@
+var items = [
+
+
+
+  {
+    type: 'special',
+    business: 'Sushi 365',
+    offer: '$3.65 Sushi Rolls',
+    alc: false,
+    day: 'Monday',
+    time: '5 pm - 10 pm',
+  },
+  {
+    type: 'special',
+    business: 'Sushi 365',
+    offer: '$5 Mojitos',
+    alc: true,
+    day: 'Monday',
+    time: '5 pm - 8 pm',
+  },
+  {
+    type: 'special',
+    business: 'TDs',
+    offer: '$11.95 All You Can Eat Wings',
+    alc: false,
+    day: 'Monday',
+    time: '5 pm - 9 pm',
+  },
+
+
+
+  {
+    type: 'special',
+    business: 'Loose Change',
+    offer: '$1.50 Beef Tacos',
+    alc: false,
+    day: 'Tuesday',
+    time: 'All Day',
+  },
+  {
+    type: 'special',
+    business: '4 Paws',
+    offer: '$1 Blue Moons',
+    alc: true,
+    day: 'Tuesday',
+    time: 'All Day',
+  },
+  {
+    type: 'special',
+    business: 'Itsurwiener',
+    offer: '75c Wings/Tenders',
+    alc: false,
+    day: 'Tuesday',
+    time: 'All Day',
+  },
+  {
+    type: 'special',
+    business: 'Loose Change',
+    offer: '$2 Tequila Shots / $8 Litchers',
+    alc: true,
+    day: 'Tuesday',
+    time: 'All Day',
+  },
+  {
+    type: 'special',
+    business: 'Sushi 365',
+    offer: '$3.56 Craft Cocktails',
+    alc: true,
+    day: 'Tuesday',
+    time: '5 pm - 8 pm',
+  },
+  {
+    type: 'special',
+    business: 'Sushi 365',
+    offer: '$5 Chef Roll',
+    alc: false,
+    day: 'Tuesday',
+    time: 'All Day',
+  },
+
+
+
+
+
+  {
+    type: 'special',
+    business: 'Sushi 365',
+    offer: 'Half Price Wine Bottles',
+    alc: true,
+    day: 'Wednesday',
+    time: '5 pm - 8 pm',
+  },
+  {
+    type: 'special',
+    business: 'Backstreets',
+    offer: 'Wing Wednesday ($8.99 Wings/Fries)',
+    alc: false,
+    day: 'Wednesday',
+    time: 'All Day',
+  },
+  {
+    type: 'special',
+    business: 'Itsurwiener',
+    offer: '$3 Pints (tap)',
+    alc: true,
+    day: 'Wednesday',
+    time: 'All Day',
+  },
+
+
+
+
+
+
+  {
+    type: 'special',
+    business: 'Itsurwiener',
+    offer: '$6 Litchers',
+    alc: true,
+    day: 'Thursday',
+    time: '4 pm - 8 pm',
+  },
+  {
+    type: 'special',
+    business: 'Sushi 356',
+    offer: '$6 Litchers',
+    alc: true,
+    day: 'Thursday',
+    time: '5 pm - 8 pm',
+  },
+  {
+    type: 'special',
+    business: 'Esso Club',
+    offer: '55c Tenders',
+    alc: false,
+    day: 'Thursday',
+    time: '4 pm - til',
+  },
+
+  {
+    type: 'special',
+    business: 'TDs',
+    offer: '24 Wings + Pitcher for $17.99',
+    alc: true,
+    day: 'Friday',
+    time: 'All Day',
+  },
+
+  {
+    type: 'special',
+    business: 'Itsurwiener',
+    offer: '$1 Mimosas',
+    alc: true,
+    day: 'Saturday (Gameday Only)',
+    time: 'All Day',
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    type: 'event',
+    business: 'Loose Change',
+    bizevent: 'Trivia',
+    reason: 'trivia',
+    day: 'Monday',
+    time: '8 pm',
+  },
+  {
+    type: 'event',
+    business: 'TTTs',
+    bizevent: 'Free Pool Upstairs',
+    reason: 'pool',
+    day: 'Monday',
+    time: 'All Day',
+  },
+
+
+  {
+    type: 'event',
+    business: 'TDs',
+    reason: 'trivia',
+    bizevent: 'Trivia (Pub Trivia)',
+    day: 'Tuesday',
+    time: '7 pm',
+  },
+  {
+    type: 'event',
+    business: 'Itsurwiener',
+    bizevent: 'Bingo',
+    reason: 'bingo',
+    day: 'Tuesday',
+    time: '8 pm',
+  },
+  {
+    type: 'event',
+    business: 'TTTs',
+    bizevent: 'Bingo',
+    reason: 'bingo',
+    day: 'Tuesday',
+    time: '8:30 pm',
+  },
+  
+
+
+
+  {
+    type: 'event',
+    business: 'Sushi 365',
+    reason: 'trivia',
+    bizevent: 'Trivia Night (Pub Trivia)',
+    day: 'Wednesday',
+    time: '7:30 pm',
+  },
+  {
+    type: 'event',
+    business: 'TTTs',
+    reason: 'trivia',
+    bizevent: 'Trivia Night (Pub Trivia)',
+    day: 'Wednesday',
+    time: '8:30 pm',
+  },
+  {
+    type: 'event',
+    business: 'Itsurwiener',
+    reason: 'trivia',
+    bizevent: 'Trivia Night (Themed Trivia)',
+    day: 'Wednesday',
+    time: '8 pm',
+  },
+
+
+  {
+    type: 'event',
+    business: 'Sushi 365',
+    reason: 'bingo',
+    bizevent: 'Bingo',
+    day: 'Friday',
+    time: '8 pm',
+  },
+];
